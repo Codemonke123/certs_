@@ -1,7 +1,7 @@
 session 1 -
 
 Chapter 1
-This is like shoping the grocery. Companies contain on-prem and cloud stored data that a power bi data analyst access. It also contain 'beta' which is not use for the production in an organisation.
+This is like shopping the grocery. Companies contain on-prem and cloud stored data that a power bi data analyst access. It also contain 'beta' which is not use for the production in an organisation.
 
 Chapter 2
 This is about the data privacy level containing the data sources which can mold with private or public data with the given categories(Private, Public and Organisational)
@@ -18,7 +18,7 @@ This about the semantic modal which is the kitchen where the data is prepared by
 
 Chapter 4
 
-this contains the storage methods as follows
+This contains the storage methods as follows
 
 Import - This is the fast and used for small to medium size data sets 
 
