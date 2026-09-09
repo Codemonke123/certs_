@@ -1,0 +1,35 @@
+session 1 -
+
+Chapter 1
+This is like shoping the grocery. Companies contain on-prem and cloud stored data that a power bi data analyst access. It also contain 'beta' which is not use for the production in an organisation.
+
+Chapter 2
+This is about the data privacy level containing the data sources which can mold with private or public data with the given categories(Private, Public and Organisational)
+
+Private - cannot mold into any other public or private data source because it includes sensitive data the organisation stored. Like the employers review.
+
+Public - It is the public data source provided by the websites like Wikipedia. This is publicly available.
+
+Organisational - Only trusted groups get the data source access.
+
+Chapter 3 
+
+This about the semantic modal which is the kitchen where the data is prepared by the analytical head(head chef) which can also be accessed by the other junior analyst(Junior chef's). Once the head creates the data. It is prepare for everyone to use. This avoids the inefficiency. When the junior access the created dataset from a semantic model. A pop up comes asking the permission or alert.
+
+Chapter 4
+
+this contains the storage methods as follows
+
+Import - This is the fast and used for small to medium size data sets 
+
+Direct Query - This for large data sets which are updated. Mean we get the real time data from a warehouse for example. The Runner picks the data and reach to the analyst. It takes time comparatively that the Import as the runner has to do the work. Identification is solid blue line.
+
+Dual Composition - This include both to improve the efficiency and to reduce trips. Identification is of dotted dark blue line.
+
+Chapter 5 
+
+Parameterization - Use parameters to save the time and effort. By Setting the parameters the only thing is to change the value and it will give the desired result needed in the table.(This is beneficial to use) 
+
+
+
+
