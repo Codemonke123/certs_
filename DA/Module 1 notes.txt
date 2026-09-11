@@ -1,7 +1,8 @@
 session 1 -
 
-Chapter 1
+Chapter 1 - Data Connectors
 This is like shopping the grocery. Companies contain on-prem and cloud stored data that a power bi data analyst access. It also contain 'beta' which is not use for the production in an organisation.
+Also can be seen in the power bi desktop as the [Get Data] button. Where all the certified and uncertified data connectors have tested or customs which are not certified by the Microsoft are present. 
 
 Chapter 2
 This is about the data privacy level containing the data sources which can mold with private or public data with the given categories(Private, Public and Organisational)
