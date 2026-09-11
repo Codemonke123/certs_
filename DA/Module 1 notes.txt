@@ -40,16 +40,38 @@ Chapter 4
 
 This contains the storage methods as follows
 
-Import - This is the fast and used for small to medium size data sets 
+Import - This is the fast and used for small to medium size data sets
 
 Direct Query - This for large data sets which are updated. Mean we get the real time data from a warehouse for example. The Runner picks the data and reach to the analyst. It takes time comparatively that the Import as the runner has to do the work. Identification is solid blue line.
 
-Dual Composition - This include both to improve the efficiency and to reduce trips. Identification is of dotted dark blue line.
+Dual Composition - This include both to improve the efficiency and to reduce trips. Identification is of dotted dark blue line. With the huge data only go for the direct query but use the dual for small. so when that small data is set to the dual it indicates as the dark blue dotted lines.
 
-Chapter 5 
+Chapter 5 - Parameters
 
-Parameterization - Use parameters to save the time and effort. By Setting the parameters the only thing is to change the value and it will give the desired result needed in the table.(This is beneficial to use) 
+Use parameters to save the time and effort. By Setting the parameters the only thing is to change the value and it will give the desired result needed in the table.(This is beneficial to use)
+It is easily maintained and dynamically flexible.
 
+So the power query editor
+
+Transform data - Transform data - manage parameter
+
+i.e.
+
+Sales_Internation - Source(with the gear icon) - Excel book
+Sales_US - Source(with the gear icon) - Fullpath - fix - Advance - move to up 
+
+pFilepath - Make the file dynamic in future (Important trick)
+pYearselector - For the paratmeter dedicated to the years
+
+so if we want to compair for
+
+"<" ">" ">=" "<=" "!="
+
+Parameters set the foundation for the incremental refresh and readability
+
+When you create a parameter, always give it a specific data type like text or decimal number.
+
+If you leave it as the any data type you wont't be edit it in a Power BI Service. Which defeat's half the purpose.
 
 
 
