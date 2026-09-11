@@ -4,7 +4,16 @@ Chapter 1 - Data Connectors
 This is like shopping the grocery. Companies contain on-prem and cloud stored data that a power bi data analyst access. It also contain 'beta' which is not use for the production in an organisation.
 Also can be seen in the power bi desktop as the [Get Data] button. Where all the certified and uncertified data connectors have tested or customs which are not certified by the Microsoft are present. 
 
-Chapter 2
+Chapter 2 - Adjust connection settings (credentials, Privacy-level)
+The runaway when the data source file is set to the another path by college.So this problem is solve by actually change setting option on the command center
+Home - trasform data - transform data data source setting - command center
+
+secret hand shake for example password of the sql server changed by the organisation and the IT team then we solve it by global permissions and edit it.
+global permission - edit
+
+Credentials?
+
+Privacy Level-
 This is about the data privacy level containing the data sources which can mold with private or public data with the given categories(Private, Public and Organisational)
 
 Private - cannot mold into any other public or private data source because it includes sensitive data the organisation stored. Like the employers review.
@@ -13,9 +22,19 @@ Public - It is the public data source provided by the websites like Wikipedia. T
 
 Organisational - Only trusted groups get the data source access.
 
-Chapter 3 
+Gateway?
+
+Also there is the fresh start setting 
+
+clear permission which force the power bi credentials all over again.
+
+Chapter 3 - Choose between shared or local semantic model
 
 This about the semantic modal which is the kitchen where the data is prepared by the analytical head(head chef) which can also be accessed by the other junior analyst(Junior chef's). Once the head creates the data. It is prepare for everyone to use. This avoids the inefficiency. When the junior access the created dataset from a semantic model. A pop up comes asking the permission or alert.
+Shared semantic model is created by the head of analytics which have the expertise in it. and then the line cook which are the juniors access it for individual analytical work. This is for maintaining the efficiency (Data Anarchy). 
+
+When the new employee try to access the semantic model he cannot transform it as the semantic model is already prepared with the relational and prepared data. 
+When the new employee try to trasform the pop up which we talk occur "DirectQuery connection is required"
 
 Chapter 4
 
