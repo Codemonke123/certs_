@@ -1,0 +1,92 @@
+session 2
+
+Lesson 1.2 
+
+"Buying grocery wash and chop" - basically messy dataset to cleaned dataset
+
+Problems example - Null value. Duplicated
+
+Chapter 1
+
+Examine Column stats, Data Types, Null, Errors, outliers.
+
+So it should be the Power Query Editor where you have the data set.
+
+Select Query - View - Data Preview
+
+so data preview contain three things 
+
+1. Column Distribution - variety of data 
+
+Distinct : Total count of different values in column.
+Unique : Unique value which appears only once.
+
+so if the distinct value is not equals to unique value then there will be a duplicated present.
+Example : If you have the column which is supposed to be unique like product_id but the distinct and unique count do not match then you have duplicates.
+
+Column Query : Categorized data in the three 
+
+1. Valid : Ready to go data.
+2. Error : Tantrams and problem.
+3. Empty : Blank
+
+Column Profile : When you need to know all about the column.
+
+Datatype : If you have one value mile's away from anything in the chart. You have found the outlier need to investigate.
+
+The original text value cannot turn into a Whole number as it will show error.
+So, count will equal to error.
+
+At the very bottom left of the power query we have the column profiling based on top 1000 rows. Which tell the initial 1000 rows (Try to read it again)
+Now change that into the entire dataset.
+
+Chapter 2 - Standardize Format, Trim Test, Replace
+
+"The clean up work"
+
+Transform data - transform data - Power Query Editor
+
+1. First right click on the column with inconsistency and transform 
+
+For example Trim 
+
+Trim - shaves off all invisible bytes space from beginning and end of string's.
+
+After this the column will be consistent.
+
+2. Also, other example is the key column with duplicate's.
+
+Let's Fix,
+
+Select the column to fix - Home - Remove rows (In Reduce rows) - remove duplicates. (Easy)
+
+It is now ready to build relationship's.
+
+3. Combined column (Categories, Product, Customer)
+
+So Instead of one the add all three in together which is the problem.
+
+Let's unpacked it.
+(So let the delimiter be the "-")
+
+Select column (click) - Split column - delimiter - ok
+
+This Splits the column in three instantly. Not Done!
+
+So there should be the spaces present. So, Now select the three and trim.
+
+4. Null values - No values 
+
+But confusing - let's make it meaningful
+
+Select column - Right click - replace values - 1. Values to find = Null 2. Replace with other - ok
+
+Null are gone.
+ 
+
+
+ 
+
+
+
+ 
