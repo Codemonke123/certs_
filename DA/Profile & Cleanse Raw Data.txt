@@ -6,7 +6,7 @@ Lesson 1.2
 
 Problems example - Null value. Duplicated
 
-Chapter 1
+Chapter 1 - Diagnose and Resolve import error: Track Transformation Step.
 
 Examine Column stats, Data Types, Null, Errors, outliers.
 
